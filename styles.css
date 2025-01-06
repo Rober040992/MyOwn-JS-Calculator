@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(72, 138, 138);
+}
+
+.calculator {
+    background-color: rgb(41, 40, 34);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.screen {
+    background: rgb(86, 204, 127);
+    border-radius: 4px;
+    font-size: 40px;
+    text-align: end;
+    padding: 5px;
+}
+
+.buttonsContainer {
+    width: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+button {
+    cursor: pointer;
+    background-color: rgb(130, 120, 120);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    width: 50px;
+    height: auto;
+    border-radius: 25px;
+    margin: 5px;
+}
+button:hover {
+    background-color: rgb(87, 85, 85);
+}
+button:active {
+    font-size: 35px;
+}
+
+#equals {
+    background-color: rgb(247, 32, 32);
+}
+#equals:hover {
+    cursor: url('asserts/objetivo.png'), auto;
+    background-color: rgb(161, 34, 34) ;
+}
+
+.operators{
+    background-color: rgb(224, 158, 15);
+}
+.operators:hover {
+    background-color: rgb(158, 111, 12);
+}
+
+#clear {
+    width: 100%;
+    background-color: rgb(74, 224, 247);
+    color: rgb(255, 255, 255);
+}
+#clear:hover{
+    cursor: url('asserts/borrar.png'), auto;
+    background-color: rgb(73, 174, 190);
+}
+
